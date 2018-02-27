@@ -5,6 +5,5 @@ class Person{
         console.log('Person say hello');
     }
 }
-
 let person:Person=new Person();
 person.sayHello();

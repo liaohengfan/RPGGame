@@ -1,0 +1,1 @@
+webpackJsonp([1],[,function(o,e,n){var t,l;t=[n,e,n(0),n(2)],void 0!==(l=function(o,e){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),(new(function(){function o(){}return o.prototype.sayHello=function(){console.log("Person say hello")},o}())).sayHello()}.apply(e,t))&&(o.exports=l)},function(o,e){}],[1]);
