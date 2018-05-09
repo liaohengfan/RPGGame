@@ -1,0 +1,29 @@
+@import "function";
+@import "animation";
+
+/*公共样式*/
+.pa{  position: absolute;}
+.pr{  position: relative;}
+.l0{left:0};
+.t0{top:0};
+.l-50{left:50%}
+.t-50{top:50%;}
+.w-100{width:100%};
+.h-100{height:100%};
+.offset-50{transform:translate(-50%,-50%)}
+.ts-center{  @extend  .l-50,.t-50,.offset-50;}
+.bg-100-center{
+  background-size:100% auto !important;
+  background-position: center  center !important;
+}
+
+/*容器*/
+html,
+body,
+.webgl-container {
+  @extend .w-100, .h-100;
+  overflow: hidden;
+  img{
+    width:100%;
+  }
+}

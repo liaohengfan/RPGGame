@@ -11,7 +11,7 @@ module.exports = {
         {
             title: "主程序",
             name: "main",
-            entry: "./src/com/main.ts",
+            entry: "./src/com/Main.ts",
             template: './src/htmls/index.html',
             filename: "./index.html"
         }

@@ -16,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/d3": "^4.13.0",
+    "@types/three": "^0.91.12",
     "awesome-typescript-loader": "^3.4.1",
     "clean-webpack-plugin": "^0.1.18",
     "codelyzer": "^4.2.1",
@@ -32,6 +33,7 @@
     "sass-loader": "^6.0.6",
     "sockjs-client": "^1.1.4",
     "style-loader": "^0.20.1",
+    "three": "^0.92.0",
     "ts-loader": "^3.4.0",
     "tslint": "^5.9.1",
     "tslint-loader": "^3.5.3",
