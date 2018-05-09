@@ -1,0 +1,368 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+body{
+    background-color:#011530;
+    color:white;
+    font-family: Arial, 'Microsoft YaHei', "Microsoft YaHei UI", SimHei, 'Times New Roman';
+}
+
+.loadingProBox{
+    height: .14rem;
+    position: relative;
+    background: hsl(0, 0%, 35%);
+    -webkit-border-radius: 15px;
+    padding: .01rem;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    width: 3rem;
+}
+
+.loadingProBox > span {
+    display: block;
+    height: 100%;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    background-image: -webkit-gradient(linear, left bottom, left top,      color-stop(0, #1f78de), color-stop(1, #0f95a7));
+    -webkit-box-shadow: inset 0 2px 9px  rgba(255,255,255,0.3), inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.loadingProAnimate > span > span {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+    z-index: 2;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-animation: move 2s linear infinite;
+    -webkit-background-size: 40px;
+    overflow: hidden;
+}
+@-webkit-keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 40px 40px;
+    }
+}
+
+
+
+.loadingBox{
+    width:100%;height:100%;display: table;position:absolute;z-index: 9999;
+}
+
+.loadingCenter{
+    width:1.57rem;height:1.57rem;display: table-cell;vertical-align: middle;
+}
+
+.loading_item.ani {
+    -webkit-animation: share_hover 1.88s infinite;
+    animation: share_hover 1.88s infinite;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    display: block
+}
+.loading_item {
+    content: "";
+    background: url(./textures/huawei.png) no-repeat;
+    background-size: 1.57rem auto;
+    background-position: center top;
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    padding: 0;
+    padding-top: 1.9rem;
+}
+@-webkit-keyframes share_hover {
+    0%, 2.219% {
+        background-position: 0 0
+    }
+    2.22%, 4.439% {
+        background-position: 20% 0
+    }
+    4.44%, 6.669% {
+        background-position: 40% 0
+    }
+    6.67%, 8.889% {
+        background-position: 60% 0
+    }
+    8.89%, 11.109% {
+        background-position: 80% 0
+    }
+    11.11%, 13.329% {
+        background-position: 100% 0
+    }
+    13.33%, 15.559% {
+        background-position: 0 14.2857142857%
+    }
+    15.56%, 17.779% {
+        background-position: 20% 14.2857142857%
+    }
+    17.78%, 19.999% {
+        background-position: 40% 14.2857142857%
+    }
+    20%, 22.219% {
+        background-position: 60% 14.2857142857%
+    }
+    22.22%, 24.439% {
+        background-position: 80% 14.2857142857%
+    }
+    24.44%, 26.669% {
+        background-position: 100% 14.2857142857%
+    }
+    26.67%, 28.889% {
+        background-position: 0 28.5714285714%
+    }
+    28.89%, 31.109% {
+        background-position: 20% 28.5714285714%
+    }
+    31.11%, 33.329% {
+        background-position: 40% 28.5714285714%
+    }
+    33.33%, 35.559% {
+        background-position: 60% 28.5714285714%
+    }
+    35.56%, 37.779% {
+        background-position: 80% 28.5714285714%
+    }
+    37.78%, 39.999% {
+        background-position: 100% 28.5714285714%
+    }
+    40%, 42.219% {
+        background-position: 0 42.8571428571%
+    }
+    42.22%, 44.439% {
+        background-position: 20% 42.8571428571%
+    }
+    44.44%, 46.669% {
+        background-position: 40% 42.8571428571%
+    }
+    46.67%, 48.889% {
+        background-position: 60% 42.8571428571%
+    }
+    48.89%, 51.109% {
+        background-position: 80% 42.8571428571%
+    }
+    51.11%, 53.329% {
+        background-position: 100% 42.8571428571%
+    }
+    53.33%, 55.559% {
+        background-position: 0 57.1428571429%
+    }
+    55.56%, 57.779% {
+        background-position: 20% 57.1428571429%
+    }
+    57.78%, 59.999% {
+        background-position: 40% 57.1428571429%
+    }
+    60%, 62.219% {
+        background-position: 60% 57.1428571429%
+    }
+    62.22%, 64.439% {
+        background-position: 80% 57.1428571429%
+    }
+    64.44%, 66.669% {
+        background-position: 100% 57.1428571429%
+    }
+    66.67%, 68.889% {
+        background-position: 0 71.4285714286%
+    }
+    68.89%, 71.109% {
+        background-position: 20% 71.4285714286%
+    }
+    71.11%, 73.329% {
+        background-position: 40% 71.4285714286%
+    }
+    73.33%, 75.559% {
+        background-position: 60% 71.4285714286%
+    }
+    75.56%, 77.779% {
+        background-position: 80% 71.4285714286%
+    }
+    77.78%, 79.999% {
+        background-position: 100% 71.4285714286%
+    }
+    80%, 82.219% {
+        background-position: 0 85.7142857143%
+    }
+    82.22%, 84.439% {
+        background-position: 20% 85.7142857143%
+    }
+    84.44%, 86.669% {
+        background-position: 40% 85.7142857143%
+    }
+    86.67%, 88.889% {
+        background-position: 60% 85.7142857143%
+    }
+    88.89%, 91.109% {
+        background-position: 80% 85.7142857143%
+    }
+    91.11%, 93.329% {
+        background-position: 100% 85.7142857143%
+    }
+    93.33%, 95.559% {
+        background-position: 0 100%
+    }
+    95.56%, 97.779% {
+        background-position: 20% 100%
+    }
+    97.78%, to {
+        background-position: 40% 100%
+    }
+}
+@keyframes share_hover {
+    0%, 2.219% {
+        background-position: 0 0
+    }
+    2.22%, 4.439% {
+        background-position: 20% 0
+    }
+    4.44%, 6.669% {
+        background-position: 40% 0
+    }
+    6.67%, 8.889% {
+        background-position: 60% 0
+    }
+    8.89%, 11.109% {
+        background-position: 80% 0
+    }
+    11.11%, 13.329% {
+        background-position: 100% 0
+    }
+    13.33%, 15.559% {
+        background-position: 0 14.2857142857%
+    }
+    15.56%, 17.779% {
+        background-position: 20% 14.2857142857%
+    }
+    17.78%, 19.999% {
+        background-position: 40% 14.2857142857%
+    }
+    20%, 22.219% {
+        background-position: 60% 14.2857142857%
+    }
+    22.22%, 24.439% {
+        background-position: 80% 14.2857142857%
+    }
+    24.44%, 26.669% {
+        background-position: 100% 14.2857142857%
+    }
+    26.67%, 28.889% {
+        background-position: 0 28.5714285714%
+    }
+    28.89%, 31.109% {
+        background-position: 20% 28.5714285714%
+    }
+    31.11%, 33.329% {
+        background-position: 40% 28.5714285714%
+    }
+    33.33%, 35.559% {
+        background-position: 60% 28.5714285714%
+    }
+    35.56%, 37.779% {
+        background-position: 80% 28.5714285714%
+    }
+    37.78%, 39.999% {
+        background-position: 100% 28.5714285714%
+    }
+    40%, 42.219% {
+        background-position: 0 42.8571428571%
+    }
+    42.22%, 44.439% {
+        background-position: 20% 42.8571428571%
+    }
+    44.44%, 46.669% {
+        background-position: 40% 42.8571428571%
+    }
+    46.67%, 48.889% {
+        background-position: 60% 42.8571428571%
+    }
+    48.89%, 51.109% {
+        background-position: 80% 42.8571428571%
+    }
+    51.11%, 53.329% {
+        background-position: 100% 42.8571428571%
+    }
+    53.33%, 55.559% {
+        background-position: 0 57.1428571429%
+    }
+    55.56%, 57.779% {
+        background-position: 20% 57.1428571429%
+    }
+    57.78%, 59.999% {
+        background-position: 40% 57.1428571429%
+    }
+    60%, 62.219% {
+        background-position: 60% 57.1428571429%
+    }
+    62.22%, 64.439% {
+        background-position: 80% 57.1428571429%
+    }
+    64.44%, 66.669% {
+        background-position: 100% 57.1428571429%
+    }
+    66.67%, 68.889% {
+        background-position: 0 71.4285714286%
+    }
+    68.89%, 71.109% {
+        background-position: 20% 71.4285714286%
+    }
+    71.11%, 73.329% {
+        background-position: 40% 71.4285714286%
+    }
+    73.33%, 75.559% {
+        background-position: 60% 71.4285714286%
+    }
+    75.56%, 77.779% {
+        background-position: 80% 71.4285714286%
+    }
+    77.78%, 79.999% {
+        background-position: 100% 71.4285714286%
+    }
+    80%, 82.219% {
+        background-position: 0 85.7142857143%
+    }
+    82.22%, 84.439% {
+        background-position: 20% 85.7142857143%
+    }
+    84.44%, 86.669% {
+        background-position: 40% 85.7142857143%
+    }
+    86.67%, 88.889% {
+        background-position: 60% 85.7142857143%
+    }
+    88.89%, 91.109% {
+        background-position: 80% 85.7142857143%
+    }
+    91.11%, 93.329% {
+        background-position: 100% 85.7142857143%
+    }
+    93.33%, 95.559% {
+        background-position: 0 100%
+    }
+    95.56%, 97.779% {
+        background-position: 20% 100%
+    }
+    97.78%, to {
+        background-position: 40% 100%
+    }
+}

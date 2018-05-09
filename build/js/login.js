@@ -1,1 +1,0 @@
-webpackJsonp([0],[,,,function(o,n,e){var t,l;t=[e,n,e(0),e(4)],void 0!==(l=function(o,n){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),console.log("Login Page"),(new(function(){function o(){}return o.prototype.sayHello=function(){console.log("Login say hello")},o}())).sayHello()}.apply(n,t))&&(o.exports=l)},function(o,n){}],[3]);
