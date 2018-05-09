@@ -5,12 +5,10 @@ import RenderMain from "./RenderMain";
  */
 class SceneMana extends EventDispatcher{
     renderMain:RenderMain;
-    domContainer:HTMLElement;
     curScene:ILHFScene;
     scenes:any={};
-    constructor(main:RenderMain,domContainer:HTMLElement){
+    constructor(main:RenderMain){
         super();
-        this.domContainer=domContainer;
         this.renderMain=main;
     }
 

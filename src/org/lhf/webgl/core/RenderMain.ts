@@ -2,12 +2,8 @@ import * as THREE from 'three';
 import {OrbitControls} from "../controls/OrbitControls";
 
 class RenderMain {
-    static FOV: number = 60;
 
-    //小行星视角配置
-    static SPHERE_RADIUS: number = 1000;
-    static FOV_MIN: number = 30;
-    static FOV_MAX: number = 80;
+    static FOV: number = 60;
 
     //默认摄像头位置
     static defaultCameraPosition: THREE.Vector3 = new THREE.Vector3(0, 100, 0);
@@ -19,31 +15,10 @@ class RenderMain {
     V_HEIGHT: number = 720;
     domContainer: HTMLElement;
     enabled: boolean = false;
-    control: OrbitControls;
-    curFov: number = RenderMain.FOV;
 
     constructor(container_: HTMLElement) {
         this.domContainer = container_;
         this.init();
-        this.initScaleControl();
-    }
-
-    initScaleControl():void{
-        this.control.panorama=true;
-        this.control.panoramaIn=(val:number)=>{
-            let fov:number=this.curFov/=val;
-            fov>RenderMain.FOV_MAX?fov=RenderMain.FOV_MAX:fov;
-            this.curFov=fov;
-            this.camera.fov=fov;
-            this.camera.updateProjectionMatrix();
-        };
-        this.control.panoramaOut=(val:number)=>{
-            let fov:number=this.curFov*=val;
-            fov<RenderMain.FOV_MIN?fov=RenderMain.FOV_MIN:fov;
-            this.curFov=fov;
-            this.camera.fov=fov;
-            this.camera.updateProjectionMatrix();
-        };
     }
 
     init() {
@@ -58,21 +33,11 @@ class RenderMain {
         this.camera.position.copy(RenderMain.defaultCameraPosition);
         let zero: THREE.Vector3 = new THREE.Vector3();
         this.camera.lookAt(zero);
-        this.control = new OrbitControls(this.camera, this.domContainer);
-        this.control.update();
         this.domContainer.appendChild(this.renderer.domElement);
-
-        //定时刷新.
-        setTimeout(() => {
-            this.control.updateStatus = true;
-        }, 1);
     }
 
     render() {
         if (!this.enabled) return;
-        //if (!this.control.updateStatus) return;
-        //this.control.updateStatus = false;
-        this.control.tweenUpdate();
         this.renderer.render(this.scene, this.camera);
     }
 
