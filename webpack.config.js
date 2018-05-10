@@ -26,9 +26,16 @@ config.entrys.forEach((page) => {
         }
     });
 
-HTMLPlugins.push(htmlPlugin);
-Entries[page.name] = page.entry;
+    HTMLPlugins.push(htmlPlugin);
+    Entries[page.name] = page.entry;
 });
+
+let Providers=[];
+config.providers.forEach((ijs)=>{
+    let provider=new webpack.ProvidePlugin(ijs);
+    Providers.push(provider);
+});
+
 const chunks = Object.keys(Entries);
 module.exports = {
     entry: Entries,
@@ -46,83 +53,84 @@ module.exports = {
         new CleanWebpackPlugin(["dist"]),
         new ExtractTextPlugin(config.cssOutPath + '/[name].css'), //单独使用link标签加载css并设置路径，相对于output配置中的publickPath
         ...HTMLPlugins,
-    new webpack.optimize.UglifyJsPlugin({
-        compress: {
-            warnings: false
-        }
-    }),
-    /*new webpack.ProvidePlugin({
-      flvjs: 'flv.js'
-    }),*/
-    new CopyWebpackPlugin([{
-        from: __dirname + '/src/assets',
-        to: './assets'
-    }]),
-    new webpack.HotModuleReplacementPlugin()
-],
-resolve: {
-    extensions: ['.webpack.js', '.web.js', '.ts', '.js']
-},
-module: {
-    loaders: [
-        /*{ test: /\.ts$/, loader: 'ts-loader' },*/
-        {test: /\.ts$/, loader: 'awesome-typescript-loader'},
-        {
-            test: /\.html$/,
-            loader: "html-loader?attrs=img:src img:data-src"
-        },
-        {
-            test: /\.scss|sass$/,
-            use: ExtractTextPlugin.extract({
-                fallback: "style-loader",
-                publicPath: config.cssPublicPath,
-                use: [
-                    {
-                        loader: 'css-loader',
-                        options: {
-                            minimize: true
+        ...Providers,
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        }),
+        /*new webpack.ProvidePlugin({
+          flvjs: 'flv.js'
+        }),*/
+        new CopyWebpackPlugin([{
+            from: __dirname + '/src/assets',
+            to: './assets'
+        }]),
+        new webpack.HotModuleReplacementPlugin()
+    ],
+    resolve: {
+        extensions: ['.webpack.js', '.web.js', '.ts', '.js']
+    },
+    module: {
+        loaders: [
+            /*{ test: /\.ts$/, loader: 'ts-loader' },*/
+            {test: /\.ts$/, loader: 'awesome-typescript-loader'},
+            {
+                test: /\.html$/,
+                loader: "html-loader?attrs=img:src img:data-src"
+            },
+            {
+                test: /\.scss|sass$/,
+                use: ExtractTextPlugin.extract({
+                    fallback: "style-loader",
+                    publicPath: config.cssPublicPath,
+                    use: [
+                        {
+                            loader: 'css-loader',
+                            options: {
+                                minimize: true
+                            }
+                        },
+                        {
+                            loader: 'sass-loader',
+                            options: {
+                                minimize: true
+                            }
                         }
-                    },
-                    {
-                        loader: 'sass-loader',
-                        options: {
-                            minimize: true
-                        }
+                    ]
+                })
+            }, {
+                test: /\.(woff|woff2|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        // use HASH file name for 'production
+                        name: '[name].[ext]',
+                        limit: 8192,
+                        outputPath: config.fontsOutPath,
+                        // publicPath: 'images/',
                     }
-                ]
-            })
-        }, {
-            test: /\.(woff|woff2|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-            use: [{
-                loader: 'file-loader',
-                options: {
-                    // use HASH file name for 'production
-                    name: '[name].[ext]',
-                    limit: 8192,
-                    outputPath: config.fontsOutPath,
-                    // publicPath: 'images/',
-                }
-            }],
-        }, {
-            test: /\.(png|jpg|gif)$/,
-            use: [{
-                loader: 'url-loader',
-                options: {
-                    // use HASH file name for 'production
-                    limit: 8192,
-                    name: '[hash].[ext]',
-                    outputPath: config.imageOutPath,
-                    // publicPath: 'images/',
-                }
-            }]
-        }
-    ]
-},
+                }],
+            }, {
+                test: /\.(png|jpg|gif)$/,
+                use: [{
+                    loader: 'url-loader',
+                    options: {
+                        // use HASH file name for 'production
+                        limit: 8192,
+                        name: '[hash].[ext]',
+                        outputPath: config.imageOutPath,
+                        // publicPath: 'images/',
+                    }
+                }]
+            }
+        ]
+    },
 //webpack-dev-server
-devServer: {
-    contentBase: '/',
+    devServer: {
+        contentBase: '/',
         host: config.dev_host,
         port: config.dev_port, //默认8080
         inline: true //可以监控js变化
-}
+    }
 };

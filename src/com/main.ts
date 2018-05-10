@@ -11,6 +11,7 @@ import RenderMain from "../org/lhf/webgl/core/RenderMain";
 import SceneMana from "../org/lhf/webgl/core/SceneMana";
 import {MainScene} from "./scenes/MainScene";
 import {PanoramaControl} from "../org/lhf/webgl/controls/PanoramaControl";
+
 class Main{
     /**     * div容器     */
     container:HTMLDivElement=null;

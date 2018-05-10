@@ -15,5 +15,11 @@ module.exports = {
             template: './src/htmls/index.html',
             filename: "./index.html"
         }
+    ],
+    providers:[
+        {
+            $:"jquery",
+            Jquery:"jquery"
+        }
     ]
 };
