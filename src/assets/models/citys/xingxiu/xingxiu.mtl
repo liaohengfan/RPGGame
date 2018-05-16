@@ -1,0 +1,1397 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# 创建的文件:16.05.2018 12:26:49
+
+newmtl TerrainMat_11_7_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodidiceng.png
+	map_Kd maps\shencaodidiceng.png
+
+newmtl TerrainMat_11_7_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\qiancaodishangceng.png
+	map_Kd maps\qiancaodishangceng.png
+	map_d maps\qiancaodishangceng.png
+
+newmtl TerrainMat_10_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shan03.png
+	map_Kd maps\shan03.png
+
+newmtl TerrainMat_10_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl TerrainMat_2_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\dalishizhuandi01.png
+	map_Kd maps\dalishizhuandi01.png
+	map_d maps\dalishizhuandi01.png
+
+newmtl TerrainMat_2_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl TerrainMat_8_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shan01.png
+	map_Kd maps\shan01.png
+
+newmtl TerrainMat_8_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl TerrainMat_10_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shan03.png
+	map_Kd maps\shan03.png
+
+newmtl TerrainMat_0_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\dalifangzhuandi.png
+	map_Kd maps\dalifangzhuandi.png
+	map_d maps\dalifangzhuandi.png
+
+newmtl TerrainMat_6_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\qiancaodidiceng.png
+	map_Kd maps\qiancaodidiceng.png
+
+newmtl wire_007109040
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.0275 0.4275 0.1569
+	Kd 0.0275 0.4275 0.1569
+	Ks 0.3500 0.3500 0.3500
+
+newmtl TerrainMat_16_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\zhaoze.png
+	map_Kd maps\zhaoze.png
+
+newmtl TerrainMat_11_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodidiceng.png
+	map_Kd maps\shencaodidiceng.png
+
+newmtl TerrainMat_11_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\qiancaodishangceng.png
+	map_Kd maps\qiancaodishangceng.png
+	map_d maps\qiancaodishangceng.png
+
+newmtl TerrainMat_9_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shan02.png
+	map_Kd maps\shan02.png
+
+newmtl TerrainMat_8_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shan01.png
+	map_Kd maps\shan01.png
+
+newmtl TerrainMat_11_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodidiceng.png
+	map_Kd maps\shencaodidiceng.png
+
+newmtl TerrainMat_9_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shan02.png
+	map_Kd maps\shan02.png
+
+newmtl TerrainMat_9_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl TerrainMat_6_14_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\qiancaodishangceng.png
+	map_Kd maps\qiancaodishangceng.png
+
+newmtl TerrainMat_6_14_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tudishangceng.png
+	map_Kd maps\tudishangceng.png
+	map_d maps\tudishangceng.png
+
+newmtl TerrainMat_0_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\dalifangzhuandi.png
+	map_Kd maps\dalifangzhuandi.png
+	map_d maps\dalifangzhuandi.png
+
+newmtl TerrainMat_0_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl TerrainMat_3_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\dalishizhuandibian.png
+	map_Kd maps\dalishizhuandibian.png
+	map_d maps\dalishizhuandibian.png
+
+newmtl TerrainMat_15_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\xinanwufengzhuanbian.png
+	map_Kd maps\xinanwufengzhuanbian.png
+	map_d maps\xinanwufengzhuanbian.png
+
+newmtl TerrainMat_16_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\zhaoze.png
+	map_Kd maps\zhaoze.png
+
+newmtl TerrainMat_16_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl TerrainMat_15_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\xinanwufengzhuanbian.png
+	map_Kd maps\xinanwufengzhuanbian.png
+	map_d maps\xinanwufengzhuanbian.png
+
+newmtl TerrainMat_15_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl TerrainMat_1_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\dalishitaijie.png
+	map_Kd maps\dalishitaijie.png
+	map_d maps\dalishitaijie.png
+
+newmtl TerrainMat_3_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\dalishizhuandibian.png
+	map_Kd maps\dalishizhuandibian.png
+	map_d maps\dalishizhuandibian.png
+
+newmtl TerrainMat_3_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl TerrainMat_5_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\taijizuogao.png
+	map_Kd maps\taijizuogao.png
+	map_d maps\taijizuogao.png
+
+newmtl TerrainMat_13_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tudidiceng.png
+	map_Kd maps\tudidiceng.png
+
+newmtl TerrainMat_4_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\taijizuoai.png
+	map_Kd maps\taijizuoai.png
+	map_d maps\taijizuoai.png
+
+newmtl TerrainMat_2_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\dalishizhuandi01.png
+	map_Kd maps\dalishizhuandi01.png
+	map_d maps\dalishizhuandi01.png
+
+newmtl TerrainMat_0_7_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\dalifangzhuandi.png
+	map_Kd maps\dalifangzhuandi.png
+	map_d maps\dalifangzhuandi.png
+
+newmtl TerrainMat_0_7_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\qiancaodishangceng.png
+	map_Kd maps\qiancaodishangceng.png
+	map_d maps\qiancaodishangceng.png
+
+newmtl TerrainMat_11_14_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodidiceng.png
+	map_Kd maps\shencaodidiceng.png
+
+newmtl TerrainMat_11_14_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tudishangceng.png
+	map_Kd maps\tudishangceng.png
+	map_d maps\tudishangceng.png
+
+newmtl TerrainMat_4_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\taijizuoai.png
+	map_Kd maps\taijizuoai.png
+	map_d maps\taijizuoai.png
+
+newmtl TerrainMat_4_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl TerrainMat_6_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\qiancaodidiceng.png
+	map_Kd maps\qiancaodidiceng.png
+
+newmtl TerrainMat_6_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl TerrainMat_5_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\taijizuogao.png
+	map_Kd maps\taijizuogao.png
+	map_d maps\taijizuogao.png
+
+newmtl TerrainMat_5_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl TerrainMat_1_12_0
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\dalishitaijie.png
+	map_Kd maps\dalishitaijie.png
+	map_d maps\dalishitaijie.png
+
+newmtl TerrainMat_1_12_0___1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\shencaodishangceng.png
+	map_Kd maps\shencaodishangceng.png
+	map_d maps\shencaodishangceng.png
+
+newmtl haihuwater
+	Ns 2000.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_hhs_0.png
+	map_Kd maps\jpg_hhs_0.png
+
+newmtl haihuwater___1
+	Ns 2000.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\water_depth.png
+	map_Kd maps\water_depth.png
+	map_d maps\water_depth.png
+
+newmtl xingxiuzhudiandizuo
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xxzd_dz.png
+	map_Kd maps\jpg_xxzd_dz.png
+
+newmtl xingxiuzhudiandizuo1
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xingxiupaifang.png
+	map_Kd maps\jpg_xingxiupaifang.png
+
+newmtl xingxiuzhudianwuding
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_xxzd_wd.png
+	map_Kd maps\tga_xxzd_wd.png
+	map_d maps\tga_xxzd_wd.png
+
+newmtl xingxiuzhudianwuding1
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_01.png
+	map_Kd maps\jpg_01.png
+
+newmtl xingxiuzhudianwuding2
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xxbs.png
+	map_Kd maps\jpg_xxbs.png
+
+newmtl xingxiuriyuedong
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xxryd.png
+	map_Kd maps\jpg_xxryd.png
+
+newmtl xingxiupailouding1
+	Ns 6272.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xxbs.png
+	map_Kd maps\jpg_xxbs.png
+
+newmtl xingxiubingchan1
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xiuxs.png
+	map_Kd maps\jpg_xiuxs.png
+
+newmtl xingxiuliandufang
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 0.9804 0.9804 0.9804
+	Kd 0.9804 0.9804 0.9804
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xingxiupaifang.png
+	map_Kd maps\jpg_xingxiupaifang.png
+
+newmtl xingxiuliandufang3
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_shizhizhu.png
+	map_Kd maps\jpg_shizhizhu.png
+
+newmtl xingxiuliandufang4
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xxldfgs.png
+	map_Kd maps\jpg_xxldfgs.png
+
+newmtl xingxiuliandufang5
+	Ns 1536.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_shizuo.png
+	map_Kd maps\tga_shizuo.png
+	map_d maps\tga_shizuo.png
+
+newmtl xingxiuliandufang6
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_shichanchu.png
+	map_Kd maps\jpg_shichanchu.png
+
+newmtl dalipaixiangfang
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_dalipaixiangfan.png
+	map_Kd maps\tga_dalipaixiangfan.png
+	map_d maps\tga_dalipaixiangfan.png
+
+newmtl taijiebian3
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_taijiebian3.png
+	map_Kd maps\jpg_taijiebian3.png
+
+newmtl pubu1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_pubu1_1.png
+	map_Kd maps\tga_pubu1_1.png
+	map_d maps\tga_pubu1_1.png
+
+newmtl taijiebian
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_taijiebian.png
+	map_Kd maps\jpg_taijiebian.png
+
+newmtl kushu1gan
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_ku.png
+	map_Kd maps\jpg_ku.png
+
+newmtl kushu1zhi
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_kuzhi2.png
+	map_Kd maps\tga_kuzhi2.png
+	map_d maps\tga_kuzhi2.png
+
+newmtl kushu2gan
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_kuoyepi.png
+	map_Kd maps\jpg_kuoyepi.png
+
+newmtl miaojiaoxiaoshitou2
+	Ns 1280.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_miaojiangxiaoshitou2.png
+	map_Kd maps\jpg_miaojiangxiaoshitou2.png
+
+newmtl xingxiuhuoba
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xingxiuhuoba.png
+	map_Kd maps\jpg_xingxiuhuoba.png
+
+newmtl miaojiangshugan
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_miaojiangshupi.png
+	map_Kd maps\jpg_miaojiangshupi.png
+
+newmtl miaojiangteng
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_miaojiangshu1.png
+	map_Kd maps\tga_miaojiangshu1.png
+	map_d maps\tga_miaojiangshu1.png
+
+newmtl miaojiaosheng4cao
+	Ns 1920.0001
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_cao7.png
+	map_Kd maps\tga_cao7.png
+	map_d maps\tga_cao7.png
+
+newmtl chashuye
+	Ns 1920.0001
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_chashu.png
+	map_Kd maps\tga_chashu.png
+	map_d maps\tga_chashu.png
+
+newmtl chashugan
+	Ns 1920.0001
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_chashu.png
+	map_Kd maps\tga_chashu.png
+	map_d maps\tga_chashu.png
+
+newmtl shuicao
+	Ns 1920.0001
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_cao8.png
+	map_Kd maps\tga_cao8.png
+	map_d maps\tga_cao8.png
+
+newmtl chuicao1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_shuicao1.dds.png
+	map_Kd maps\tga_shuicao1.dds.png
+	map_d maps\tga_shuicao1.dds.png
+
+newmtl shuicao3
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_shuicao3.png
+	map_Kd maps\tga_shuicao3.png
+	map_d maps\tga_shuicao3.png
+
+newmtl xingxiujitan
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xingxiujitan.png
+	map_Kd maps\jpg_xingxiujitan.png
+
+newmtl xingxiushi
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xxs.png
+	map_Kd maps\jpg_xxs.png
+
+newmtl daguan2
+	Ns 1920.0001
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_daguan2.png
+	map_Kd maps\tga_daguan2.png
+	map_d maps\tga_daguan2.png
+
+newmtl daguan6
+	Ns 1920.0001
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_daguan6.png
+	map_Kd maps\tga_daguan6.png
+	map_d maps\tga_daguan6.png
+
+newmtl xingxiubingchan
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_shizuo.png
+	map_Kd maps\jpg_shizuo.png
+
+newmtl xingxiuwugong
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_xxwg.png
+	map_Kd maps\jpg_xxwg.png
+
+newmtl kuzhi
+	Ns 1920.0001
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_kuzhi.png
+	map_Kd maps\tga_kuzhi.png
+	map_d maps\tga_kuzhi.png
+
+newmtl songshuzhi
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_kuzhi.png
+	map_Kd maps\tga_kuzhi.png
+	map_d maps\tga_kuzhi.png
+
+newmtl cao10
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_grass_10.png
+	map_Kd maps\tga_grass_10.png
+	map_d maps\tga_grass_10.png
+
+newmtl daguan1
+	Ns 1920.0001
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_daguan1.png
+	map_Kd maps\tga_daguan1.png
+	map_d maps\tga_daguan1.png
+
+newmtl pubu5
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_pubu1_1.png
+	map_Kd maps\tga_pubu1_1.png
+	map_d maps\tga_pubu1_1.png
+
+newmtl miaojiangshu4gan
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_miaojiangshu4.png
+	map_Kd maps\tga_miaojiangshu4.png
+	map_d maps\tga_miaojiangshu4.png
+
+newmtl guhua
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_guhua.png
+	map_Kd maps\tga_guhua.png
+	map_d maps\tga_guhua.png
+
+newmtl dushexiang
+	Ns 0.0000
+	Ni 1.5000
+	d 0.9900
+	Tr 0.0100
+	Tf 0.9900 0.9900 0.9900 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\jpg_dushexiang.png
+	map_Kd maps\jpg_dushexiang.png
+
+newmtl yanjianglv
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tga_yjlv.png
+	map_Kd maps\tga_yjlv.png
+	map_d maps\tga_yjlv.png

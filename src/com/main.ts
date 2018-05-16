@@ -47,6 +47,9 @@ class Main{
     /**     * 初始化webgl     */
     private initWebGL():void{
         this.renderMain=new RenderMain(this.container);
+        this.renderMain.camera.far=2000000;
+        this.renderMain.camera.near=100;
+        this.renderMain.camera.position.set(0,100,1000);
         this.sceneMana=new SceneMana(this.renderMain);
         this.controls=new PanoramaControl(this.renderMain.camera,this.container);
         this.mainScene=new MainScene();
