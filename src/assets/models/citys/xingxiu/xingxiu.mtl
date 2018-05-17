@@ -1,5 +1,5 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# 创建的文件:16.05.2018 12:26:49
+# 创建的文件:17.05.2018 14:52:36
 
 newmtl TerrainMat_11_7_0
 	Ns 0.0000
@@ -12,8 +12,8 @@ newmtl TerrainMat_11_7_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\shencaodidiceng.png
-	map_Kd maps\shencaodidiceng.png
+	map_Ka maps\shencaodidiceng.jpg
+	map_Kd maps\shencaodidiceng.jpg
 
 newmtl TerrainMat_11_7_0___1
 	Ns 0.0000
@@ -41,8 +41,8 @@ newmtl TerrainMat_10_12_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\shan03.png
-	map_Kd maps\shan03.png
+	map_Ka maps\shan03.jpg
+	map_Kd maps\shan03.jpg
 
 newmtl TerrainMat_10_12_0___1
 	Ns 0.0000
@@ -100,8 +100,8 @@ newmtl TerrainMat_8_12_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\shan01.png
-	map_Kd maps\shan01.png
+	map_Ka maps\shan01.jpg
+	map_Kd maps\shan01.jpg
 
 newmtl TerrainMat_8_12_0___1
 	Ns 0.0000
@@ -129,8 +129,8 @@ newmtl TerrainMat_10_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\shan03.png
-	map_Kd maps\shan03.png
+	map_Ka maps\shan03.jpg
+	map_Kd maps\shan03.jpg
 
 newmtl TerrainMat_0_0
 	Ns 0.0000
@@ -158,8 +158,8 @@ newmtl TerrainMat_6_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\qiancaodidiceng.png
-	map_Kd maps\qiancaodidiceng.png
+	map_Ka maps\qiancaodidiceng.jpg
+	map_Kd maps\qiancaodidiceng.jpg
 
 newmtl wire_007109040
 	Ns 32
@@ -182,8 +182,8 @@ newmtl TerrainMat_16_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\zhaoze.png
-	map_Kd maps\zhaoze.png
+	map_Ka maps\zhaoze.jpg
+	map_Kd maps\zhaoze.jpg
 
 newmtl TerrainMat_11_12_0
 	Ns 0.0000
@@ -196,8 +196,8 @@ newmtl TerrainMat_11_12_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\shencaodidiceng.png
-	map_Kd maps\shencaodidiceng.png
+	map_Ka maps\shencaodidiceng.jpg
+	map_Kd maps\shencaodidiceng.jpg
 
 newmtl TerrainMat_11_12_0___1
 	Ns 0.0000
@@ -225,8 +225,8 @@ newmtl TerrainMat_9_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\shan02.png
-	map_Kd maps\shan02.png
+	map_Ka maps\shan02.jpg
+	map_Kd maps\shan02.jpg
 
 newmtl TerrainMat_8_0
 	Ns 0.0000
@@ -239,8 +239,8 @@ newmtl TerrainMat_8_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\shan01.png
-	map_Kd maps\shan01.png
+	map_Ka maps\shan01.jpg
+	map_Kd maps\shan01.jpg
 
 newmtl TerrainMat_11_0
 	Ns 0.0000
@@ -253,8 +253,8 @@ newmtl TerrainMat_11_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\shencaodidiceng.png
-	map_Kd maps\shencaodidiceng.png
+	map_Ka maps\shencaodidiceng.jpg
+	map_Kd maps\shencaodidiceng.jpg
 
 newmtl TerrainMat_9_12_0
 	Ns 0.0000
@@ -267,8 +267,8 @@ newmtl TerrainMat_9_12_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\shan02.png
-	map_Kd maps\shan02.png
+	map_Ka maps\shan02.jpg
+	map_Kd maps\shan02.jpg
 
 newmtl TerrainMat_9_12_0___1
 	Ns 0.0000
@@ -385,8 +385,8 @@ newmtl TerrainMat_16_12_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\zhaoze.png
-	map_Kd maps\zhaoze.png
+	map_Ka maps\zhaoze.jpg
+	map_Kd maps\zhaoze.jpg
 
 newmtl TerrainMat_16_12_0___1
 	Ns 0.0000
@@ -504,8 +504,8 @@ newmtl TerrainMat_13_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\tudidiceng.png
-	map_Kd maps\tudidiceng.png
+	map_Ka maps\tudidiceng.jpg
+	map_Kd maps\tudidiceng.jpg
 
 newmtl TerrainMat_4_0
 	Ns 0.0000
@@ -578,8 +578,8 @@ newmtl TerrainMat_11_14_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\shencaodidiceng.png
-	map_Kd maps\shencaodidiceng.png
+	map_Ka maps\shencaodidiceng.jpg
+	map_Kd maps\shencaodidiceng.jpg
 
 newmtl TerrainMat_11_14_0___1
 	Ns 0.0000
@@ -637,8 +637,8 @@ newmtl TerrainMat_6_12_0
 	Kd 1.0000 1.0000 1.0000
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\qiancaodidiceng.png
-	map_Kd maps\qiancaodidiceng.png
+	map_Ka maps\qiancaodidiceng.jpg
+	map_Kd maps\qiancaodidiceng.jpg
 
 newmtl TerrainMat_6_12_0___1
 	Ns 0.0000
