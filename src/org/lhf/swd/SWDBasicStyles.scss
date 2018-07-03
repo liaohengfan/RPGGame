@@ -1,0 +1,125 @@
+.swd-container {
+  position: relative;
+}
+
+.swd-hide {
+  display: none;
+}
+
+.swd-show {
+  display: block;
+}
+
+/*输入框*/
+.swd-container .swd-text-input {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.swd-stage {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #ffffff;
+
+  .swd_d_l {
+    transform: translate(0, -50%);
+  }
+  .swd_d_lt {
+  }
+  .swd_d_t {
+    transform: translate(-50%, 0);
+  }
+  .swd_d_rt {
+    transform: translate(-100%, 0);
+  }
+  .swd_d_r {
+    transform: translate(-100%, -50%);
+  }
+  .swd_d_rb {
+    transform: translate(-100%, -100%);
+  }
+  .swd_d_b {
+    transform: translate(-50%, -100%);
+  }
+  .swd_d_lb {
+    transform: translate(0, -100%);
+  }
+  .swd_d_c {
+    transform: translate(-50%, -50%);
+  }
+
+  .modular-default-fill {
+    fill: #d1e9ff;
+  }
+  .swd-modular {
+    border-radius: 20px;
+    stroke: #00343e;
+    stroke-width: 1;
+    stroke-opacity: .2;
+  }
+
+  .swd-text {
+    text-anchor: start;
+  }
+
+  .swd-point-rect {
+    fill: #36c7c1;
+    stroke: #00343e;
+    stroke-width: 1;
+    stroke-opacity: .2;
+  }
+  .swd-point-circle {
+    fill: #36c7c1;
+    stroke: #00343e;
+    stroke-width: 1;
+    stroke-opacity: .2;
+  }
+  .swd-line {
+    stroke: #1cb1b9;
+    stroke-width: 3;
+    fill: none;
+    &.swd-sel {
+      stroke: red;
+    }
+  }
+  .swd-line-sel{
+    stroke:rgba(0,0,0,0);
+    stroke-width: 10;
+    fill:none;
+  }
+
+  /**  箭头   */
+  .swd-marker-path {
+    fill: #000;
+  }
+
+}
+
+.swd-lines {
+}
+
+.swd-points {
+}
+
+.swd-modulars {
+  &.swd-sel {
+
+  }
+}
+
+/*栅格*/
+.swd-grid{
+  .swd-grid-line{
+    stroke:#f5f6f7;
+    stroke-width: 1;
+  }
+  .swd-grid-line-str{
+    stroke:#dee1e6;
+    stroke-width: 1;
+  }
+}
